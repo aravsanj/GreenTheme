@@ -2,13 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@300&display=swap");
 
-/* rest margin & padding  */
+/* reset margin & padding  */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Setting root font-size and family */
 
 :root {
   font-size: 16px;
@@ -19,7 +21,7 @@ body {
   background-color: #7eab24;
 }
 
-/* Outermost container is grid */
+/* outermost container is grid */
 
 .container {
   display: grid;
